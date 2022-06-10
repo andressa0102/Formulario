@@ -1,8 +1,11 @@
+header {
+  height: 5rem;
+  
+}
 header nav input#menu-toggle {
     display: none;
   }
   
-  @media (max-width: 575px) {
     header nav {
       position: fixed;
       margin-top: 1rem;
@@ -110,4 +113,4 @@ header nav input#menu-toggle {
         opacity: 0;
       }
     }
-  }
+  
